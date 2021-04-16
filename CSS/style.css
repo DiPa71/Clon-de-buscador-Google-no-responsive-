@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: nonw;
+    cursor: pointer;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 6rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav a {
+    margin-right: 1rem;
+    color: #000;
+}
+
+nav .nav .menu {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+nav .nav img {
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+main {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-logo img {
+    width: 30rem;
+}
+
+main .main {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-input {
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+
+main .main-input:hover {
+    box-shadow: 0 1px 6px 0 #3d3d3d47;
+    border-colo: #dfe1e500;
+}
+
+main .main .Search-icon {
+    background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+}
+
+main .main .mic-icon {
+    background-image: url("http://pixsector.com/cache/fb36ec30/av5e4cb285ffdbbf48898.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+main .btn-main {
+    width: 53rem;
+    margin: 0 auto;
+}
+
+main .btn-main div {
+    padding-left: 1.5rem;
+    display: inline-block;
+}
+
+main .btn-main button {
+    height: 3.6rem;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: .5rem;
+    padding: 0 1.5rem;
+}
+
+main .btn-main button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px #000001;
+    color: #000001;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #f2f2f2;
+    border: 1px solid #e4e4e4
+}
+
+footer ul {
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .f-left {
+    justify-content: left;
+}
+
+footer .f-rigth {
+    justify-content: right;
+}
+
+footer ul li a {
+    margin: 1rem;
+    color: #5f6368;
+}
